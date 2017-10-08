@@ -1,8 +1,3 @@
-data1 = ['fuck', 'shit', 'cunt', 69]
-data2 = ['niggers']
-data3 = ['aids', 'fuck', 'fuck', 'fuck', 'fuck']
-
-
 def table(*args):
 	line = 0
 	longestStr = 0
@@ -14,8 +9,6 @@ def table(*args):
 			line = line + len(str(i))
 			if len(str(i)) >= longestStr:
 				longestStr = len(str(i))
-#print('|' + str(i) + ' ' * (longestStr - len(str(i))), end = '')
-
 	dataSetCount = 0
 	for dataSet in args:
 		dataSetCount = dataSetCount + 1
@@ -32,6 +25,3 @@ def table(*args):
 			print(' ' * longestStr, end = '|')
 			x = x + 1
 	print('\n' + '-'*line)
-
-
-table(data1, data2, data3)
