@@ -1,9 +1,4 @@
-good = ['Lawful Good', 'Neutral Good', 'Chaotic Good']
-neutral = ['Lawful Neutral', 'True Neutral', 'Chaotic Neutral']
-evil = ['Lawful Evil', 'Neutral Evil', 'Chaotic Evil']
-
 def table(*args):
-	x = 0
 	longestStr = 0
 	longestData = 0
 	for data in args:
@@ -28,5 +23,3 @@ def table(*args):
 			print(' ' * longestStr, end = '|')
 			x = x + 1
 	print('\n' + '-'*(longestStr * longestData + longestData + 1))
-
-table(good, neutral, evil)
