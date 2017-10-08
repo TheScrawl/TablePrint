@@ -1,4 +1,6 @@
-import sys
+#This module was written by The Scrawl
+#Please check out it's github repo: https://github.com/TheScrawl/TablePrint
+
 def table(*argv):
 	longestStr = 0
 	longestData = 0
