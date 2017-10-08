@@ -1,14 +1,15 @@
-def table(*args):
+import sys
+def table(*argv):
 	longestStr = 0
 	longestData = 0
-	for data in args:
+	for data in argv:
 		if len(data) > longestData:
 			longestData = len(data)
 		for i in data:
 			if len(str(i)) >= longestStr:
 				longestStr = len(str(i))
 	dataSetCount = 0
-	for dataSet in args:
+	for dataSet in argv:
 		dataSetCount = dataSetCount + 1
 		itemCount = 0
 		print('\n' + '-'*(longestStr * longestData + longestData + 1))
