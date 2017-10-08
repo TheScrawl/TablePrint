@@ -1,5 +1,5 @@
 # TablePrint
-Python module for printing formatted tables
+Python module I threw togther for printing formatted tables, I was going to write it anyway for a seperate project, so I figured why not write it as a module so I can use it again easily if needed
 
 ## Usage
 Usage for TablePrint is easy, simply feed it any number of lists with your data in it, each list being a new row and each item being a column
