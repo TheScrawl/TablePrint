@@ -16,13 +16,13 @@ Input:
 ```
 Output:
 ```
--------------------------------------------------
-|Lawful Good    |Neutral Good   |Chaotic Good   |
--------------------------------------------------
-|Lawful Neutral |True Neutral   |Chaotic Neutral|
--------------------------------------------------
-|Lawful Evil    |Neutral Evil   |Chaotic Evil   |
--------------------------------------------------
+----------------------------------------------------
+|Lawful Good     |Neutral Good    |Chaotic Good    |
+----------------------------------------------------
+|Lawful Neutral  |True Neutral    |Chaotic Neutral |
+----------------------------------------------------
+|Lawful Evil     |Neutral Evil    |Chaotic Evil    |
+----------------------------------------------------
 ```
 #### Installation
 Currently there is no pip installer, but you dont really need one, just drop the TablePrint file into your project directory.
