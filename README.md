@@ -1,4 +1,7 @@
 # TablePrint
+
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/d460a97758054f9c8810e0a62dbdd840)](https://www.codacy.com/app/TheScrawl/TablePrint?utm_source=github.com&utm_medium=referral&utm_content=TheScrawl/TablePrint&utm_campaign=badger)
+
 Python module I threw togther for printing formatted tables, I was going to write it anyway for a seperate project, so I figured why not write it as a module so I can use it again easily if needed
 
 ## Usage
